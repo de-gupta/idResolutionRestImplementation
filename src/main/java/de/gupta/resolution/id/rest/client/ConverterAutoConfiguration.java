@@ -41,5 +41,4 @@ public class ConverterAutoConfiguration
 	{
 		return new PersistenceIDConverter(restClient, properties.getApiIDFetcherEndpoint(), tokenProvider);
 	}
-
 }
